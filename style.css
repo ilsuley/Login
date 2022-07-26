@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    min-width: 500px;
+    margin: auto;
+}
+
+/* css start */
+
+#one {
+    background-color: #fc6539;
+    width: 600px;
+}
+
+.login {
+    padding: 41px;
+    font-size: 17px;
+    line-height: 45px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Open Sans";
+    text-align: center;
+    filter: drop-shadow(0.5px 0.866px 0px #cd502c);
+
+}
+
+#one form input {
+    padding: 24px;
+    margin: 16px;
+    width: 500px;
+    font-size: 24px;
+    line-height: 45px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    background-color: #ba3c24;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+
+#two {
+    width: 600px;
+    height: 170px;
+    background-color: #b93b23;
+}
+
+#two a {
+    margin:56px;
+    font-size: 24px;
+    line-height: 45px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-decoration: none;
+}
+
+#two button  {
+    margin-right: 30px;
+    width: 250px;
+    height: 70px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    line-height: 45px;
+    color: #ba3c24;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    }
